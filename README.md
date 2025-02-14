@@ -2,6 +2,7 @@ We got an article about perpelxity mcp!
 https://cline.bot/blog/supercharge-cline-3-ways-to-build-better-with-perplexity-mcp
 
 # MCP-researcher Server
+[![smithery badge](https://smithery.ai/badge/@DaInfernalCoder/perplexity-mcp)](https://smithery.ai/server/@DaInfernalCoder/perplexity-mcp) 
 
 Your own research assistant inside of Cline! Utilizes Perplexity's new Sonar Pro API to get docs, create up-to-date api routes, and check deprecated code while you create features with Cline. 
 
@@ -25,6 +26,14 @@ Analyzes code for deprecated features or patterns, providing migration guidance.
 
 
 ## Installation
+
+### Installing via Smithery
+
+To install MCP-researcher Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@DaInfernalCoder/perplexity-mcp):
+
+```bash
+npx -y @smithery/cli install @DaInfernalCoder/perplexity-mcp --client claude
+```
 
 ### paste this part into claude directly if you want to, the ai can install it for you
 
